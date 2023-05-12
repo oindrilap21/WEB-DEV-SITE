@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SignIn & SignUp Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+  <script type="text/javascript">
+window.alert("YOU CAN SIGN UP AND SIGN IN ON THE SAME PAGE :)");</script>
+
+    <div class="container">
+      <h1 class="heading">
+        <span style="margin-top: 100px;" class="heading-span-1">Sign</span
+        ><span  style="margin-top: 100px;" class="heading-span-2">In</span>
+      </h1>
+      <div class="buttons">
+        <button   style="margin-top: 100px;" class="signin-btn">SignIn</button>
+        <button  style="margin-top: 100px;" class="signup-btn">SignUp</button>
+      </div>
+      <div class="form-bg"></div>
+      <form class="form sign-in">
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="text"
+            class="form-input"
+            id="username"
+			 style="margin-top: 300px;" 
+            placeholder="Your Name"
+          />
+          <p class="message">Error Message</p>
+        </div>
+		
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="text"
+            class="form-input"
+            id="email"
+            placeholder="Email Address"
+          />
+          <p class="message">Error Message</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="password"
+            class="form-input"
+            id="password"
+            placeholder="Password"
+          />
+          <p class="message">Error Message</p>
+        </div>
+        <div class="form-input-wrapper">
+          <input
+            autocomplete="off"
+            type="password"
+            class="form-input"
+            id="password2"
+            placeholder="Confirm Password"
+          />
+          <p class="message">Error Message</p>
+        </div>
+		
+		
+        <input type="button" value="Submit" class="form-btn" onclick="alert('submission received');" >
+	   
+      </form>
+	  
+
+    </div>
+	
+
+		
+    <script src="script.js"></script>
+  </body>
+</html>
